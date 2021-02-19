@@ -1,5 +1,3 @@
-const { test, expect } = require('@jest/globals');
-const { extractExpectedAssertionsErrors } = require('expect');
 const Potion = require('../lib/Potion.js');
 
 test('creates a health potion object', () => {
